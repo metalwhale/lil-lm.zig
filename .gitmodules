@@ -1,0 +1,3 @@
+[submodule "3_llama/llama2.c"]
+	path = 3_llama/llama2.c
+	url = https://github.com/karpathy/llama2.c
