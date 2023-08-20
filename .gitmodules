@@ -1,3 +1,6 @@
 [submodule "3_llama/llama2.c"]
 	path = 3_llama/llama2.c
 	url = https://github.com/karpathy/llama2.c
+[submodule "4_ggml/ggml"]
+	path = 4_ggml/ggml-playground/ggml
+	url = https://github.com/ggml-org/ggml
