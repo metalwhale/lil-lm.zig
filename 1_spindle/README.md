@@ -2,7 +2,7 @@
 Spindle neurons enable whales to be deep thinkers.
 
 ## How to run
-1. Download [MNIST dataset](http://yann.lecun.com/exdb/mnist/) and extract `.gz` files into [`./data/`](./data/) directory
+1. Download [MNIST dataset](http://yann.lecun.com/exdb/mnist/) ([Mirror](https://github.com/cvdfoundation/mnist/tree/7477baf)) and extract `.gz` files into [`./data/`](./data/) directory
 2. Start and get inside the Docker container:
     ```bash
     cd infra-dev/

@@ -8,7 +8,7 @@ RUN apt install -y git curl xz-utils
 #   https://install.zigtools.org/
 ARG ZIG_PATH=/usr/local/zig
 RUN PLATFORM=`uname -m` \
-    && curl https://ziglang.org/builds/zig-linux-${PLATFORM}-0.11.0.tar.xz -o /tmp/zig.tar.xz \
+    && curl https://ziglang.org/download/0.11.0/zig-linux-${PLATFORM}-0.11.0.tar.xz -o /tmp/zig.tar.xz \
     && cd /tmp/ \
     && tar -xf zig.tar.xz \
     && mv /tmp/zig-linux-${PLATFORM}-0.11.0 ${ZIG_PATH} \

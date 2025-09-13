@@ -39,7 +39,7 @@ pub extern "C" fn decode(
         .expect("Tokenizer file opening failed.");
     let vocab = CString::new(
         tokenizer
-            .decode(vec![token as u32], true)
+            .decode(&vec![token as u32], true)
             .expect("Decoding failed"),
     )
     .expect("CString conversion failed.");
